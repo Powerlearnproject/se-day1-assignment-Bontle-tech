@@ -5,7 +5,8 @@ Software Engineering Day1 Assignment
 #Part 1: Introduction to Software Engineering
 
 Explain what software engineering is and discuss its importance in the technology industry.
-= Software Engineering is a branch of computer science used for developing, testing and maintaining software(s). 
+
+• Software Engineering is a branch of computer science used for developing, testing and maintaining software(s). 
 Its importance is:
 
 1. *reliability* it ensures software performs as expected without bias especially for critical applications such as healthcare/finace.
@@ -18,11 +19,13 @@ Its importance is:
 
 
 Identify and describe at least three key milestones in the evolution of software engineering.
-= Mastering complexity, Mastering process and Mastering machine.
+
+• Mastering complexity, Mastering process and Mastering machine.
 
 
 List and briefly explain the phases of the Software Development Life Cycle.
-= Planning - identify the software requirement(s) or purpose and scope.
+
+• Planning - identify the software requirement(s) or purpose and scope.
 Requirement planning - identify the final user specification.
 Design - building the framework.
 Coding - converting the software design into tangible code.
@@ -30,7 +33,8 @@ Testing - examine the software for any bugs and glitches.
 
 
 Compare and contrast the Waterfall and Agile methodologies. Provide examples of scenarios where each would be appropriate.
-= • Waterfall methodology
+
+ • Waterfall methodology
 - linear and sequential, each phase is completed before moving on.
 - there is low flexibility, changes are hard to incorporate once a phase is complete.
 - customer feedback comes late, after the product is developed.
@@ -46,7 +50,8 @@ Compare and contrast the Waterfall and Agile methodologies. Provide examples of 
 
 
 Describe the roles and responsibilities of a Software Developer, a Quality Assurance Engineer, and a Project Manager in a software engineering team.
-= The role of a Sotfware Developer in a software engineering team is to develop applications, programs and systems using programming languages and frameworks.
+
+• The role of a Sotfware Developer in a software engineering team is to develop applications, programs and systems using programming languages and frameworks.
 The responsibilities include:
 - maintaining and updating softwares to keep it functional.
 - collaborating with other team members to ensure best practice when developing software.
@@ -68,21 +73,63 @@ The responsibilities include:
 
 
 Discuss the importance of Integrated Development Environments (IDEs) and Version Control Systems (VCS) in the software development process. Give examples of each.
-= Importance of Integrated Development Environments:
-- formats the written text by automatically making some words bold/italic , or by using different font colors. These visual cues make the source code more readable and give instant feedback about accidental syntax errors.
+
+• Importance of Integrated Development Environments:
+- An IDE can make suggestions to complete a code statement when the developer begins typing.
+- Increase programming productivity by performing repeatable deelopment tasks that are typically part of every code change.
+- Formats the written text by automatically making some words bold/italic , or by using different font colors. These visual cues make the source code more readable and give instant feedback about accidental syntax errors. e.g Visual Studio Code (VSCode)
+
+• Importance of Version Control Systems:
+- Collaboration: enables multiple developers to work on the same codebase without conflict.
+- Change tracking: records detailed history of changes, alllowing easy analysis of each modification.
+- Branching and merging: supports creating branches for new features and merging them back into the main code.
+- Error recovery: allows reverting to previous versions if new changes introduce errors. e.g Git
   
 
 
 What are some common challenges faced by software engineers? Provide strategies to overcome these challenges.
 
+• Rapid technological advancement: places considerable pressure on software engineers to stay current.
+• Solution: adapting continuous learning practices and using agile methodologies to adapt to emerging trends, keeping their skills sharp in an ever-evolving industry.
+
+• Time constraints: software engineering is a demanding and time-intensive field, often requiring engineers to work under high pressure to meet tight deadlines.
+• Solution: adopt agile methodologies, such as scrum, to streamline workflow by dividing large projects into manageable sprints.
+
+• Limited infrastructure: limited high-performance software engineering tools and computing platforms and inefficient data storage architectures.
+• Solution: software engineers must rely heavily on a robust infrastructure to perform their jobs effectively.
+
+• Changing software requirements: software requirements are often dynamic and subject to frequent changes, making it challenging for engineers to develop solutions that meet users needs while accounting for future updates and bug fixes.
+• Solutions: engineers can adopt approaches like agile development, which emphasizes iterative progress and adaptability, and modular design, which enables flexibility by breaking systems into manageable, independent components.
+
 
 Explain the different types of testing (unit, integration, system, and acceptance) and their importance in software quality assurance.
 
+• Unit tests: are close to the source of an application. They consist in testing individual methods and functions of the classes, components, or modules used by your software.
+- It ensures that each unit performs its intended function correctly, isolated from other components.
+• Integration tests: verify that different modules or services used by your application work well together.
+- Helps to ensure data flows smoothly between modules and interfaces work as expected.
+• System testing: focuses on the entire software system as a whole, including all functionalities and interactions.
+- It helps to verify that the system meets all functional and non-functional requirements, including performance, usability, and security.
+• Acceptance tests: these are formal tests that verify if a system satisfies business requirements. They require the entire application to be running while testing and focus on replicating user behaviors.
+- Whether the software meets the needs of the end-user and is ready for deployment.
 
 #Part 2: Introduction to AI and Prompt Engineering
 
 
 Define prompt engineering and discuss its importance in interacting with AI models.
 
+• Prompt engineering is the process where you guide generative AI solutions to generate desired outputs.
+The importance of prompt engineering in interacting with AI models is: 
+- Improved user experience: prompt engineering makes it easy for users to obtain relevant results in the first prompt. It helps mitigate bias that may be present from existing human bias in the large language models training data.
+- Increased flexibility: a prompt engineer can create prompts with domain-neutral instructions highlighting logical links and broad patterns.
+- Developer control: prompt engineering gives developers more control over users interactions with AI. Effective prompts provide intent and establish context to the large language models.
+  
+
 
 Provide an example of a vague prompt and then improve it by making it clear, specific, and concise. Explain why the improved prompt is more effective.
+
+• Example of a vague prompt: draw a picture of a car.
+• Example of a improved prompt: draw a picture of a SUV Porsche car, with blue paint and tinted windows, parked at a rooftop parking lot surrounded by skyscrapers.
+- Clarity: the improved prompt specifies what is being asked (a picture of a SUV Porsche car) rather than just a "car".
+- Specific details: describing the cars appearance (blue paint and tinted windows) and the setting (rooftop parking lot surrounded by skyscrapers) gives a clear guidance on the image to be created.
+- Concise: the additional details provide a clear picture without being overly complicated, making it easier for the artist to understand exactly what is needed.
